@@ -7,7 +7,7 @@ $(document).ready(function(){
 	// 	$("body").css({"background-color": "red"});
 	// }
 	$("header").css({"background-color": "rgba(46, 241, 114, 0.7)"});
-	$("#logo").css({"margin-top": "150px", "width": "240px","height":"240px"});
+	$("#logo").css({"margin-top": "130px", "width": "230px","height":"230px","background":"rgba(255,255,255,0.5)"});
 
 	var flag = false;
 	var scroll;
@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 		if(scroll > 200){
 			if(!flag){
-				$("#logo").css({"margin-top": "-5px", "width": "50px","height":"50px"});
+				$("#logo").css({"margin-top": "-5px", "width": "50px","height":"50px","background":"white"});
 				// $("#banner").css({"height": "200px"});
 				$("header").css({"background-color": "rgba(46, 241, 114, 0.9)"});
 
@@ -28,7 +28,7 @@ $(document).ready(function(){
 			}
 		}else{
 			if(flag){
-				$("#logo").css({"margin-top": "150px", "width": "250px","height":"250px"});
+				$("#logo").css({"margin-top": "130px", "width": "230px","height":"230px", "background":"rgba(255,255,255,0.5)"});
 				// $("#banner").css({"height": "200px"});
 				$("header").css({"background-color": "rgba(46, 241, 114, 0.5)"});
 				flag = false;
@@ -38,4 +38,9 @@ $(document).ready(function(){
 
 	});
 
+	
+
 });
+
+
+	  
