@@ -1,0 +1,53 @@
+<div class="tarjetas">
+								<aside class="profile-card">
+									<div class="perfil">
+										<a href="https://tutsplus.com">
+										<img src="img/3.jpeg">
+										</a>
+										<h1>Viviana Gomez</h1>
+									</div>
+	
+									<div class="profile-bio">
+										<p>Presidente</p>
+										<p>I am a full stack web developer. I mainly work with PHP, HTML, CSS, JS and WordPress.
+										<br />I also play well with Photoshop, Corel Draw, After Effects and other cool stuff.</p>
+									</div>	
+								</aside>
+								</div>
+								
+								
+									<div class="tarjetas">
+									<aside class="profile-card">
+										<div class="perfil">
+											<a href="https://tutsplus.com">
+											<img src="img/4.jpeg">
+											</a>
+											<h1>Wilderman navaz</h1>
+										</div>
+		
+										<div class="profile-bio">
+											<p>Presidente acueducto</p>
+											<p>I am a full stack web developer. I mainly work with PHP, HTML, CSS, JS and WordPress.
+											<br />I also play well with Photoshop, Corel Draw, After Effects and other cool stuff.</p>
+										</div>	
+										<div class="tarjetas">	  
+										</aside>
+									</div>
+
+									<div class="tarjetas">
+										<aside class="profile-card">
+											<div class="perfil">
+												<a href="https://tutsplus.com">
+												<img src="img/4.jpeg">
+												</a>
+												<h1>George Darkos</h1>
+											</div>
+			
+											<div class="profile-bio">
+												<p>Hello there!</p>
+												<p>I am a full stack web developer. I mainly work with PHP, HTML, CSS, JS and WordPress.
+												<br />I also play well with Photoshop, Corel Draw, After Effects and other cool stuff.</p>
+											</div>		  
+											</aside>
+								
+										</div>

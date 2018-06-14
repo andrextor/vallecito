@@ -7,7 +7,7 @@ $(document).ready(function(){
 	// 	$("body").css({"background-color": "red"});
 	// }
 	$("header").css({"background-color": "rgba(46, 241, 114, 0.7)"});
-	$("#logo").css({"margin-top": "130px", "width": "230px","height":"230px","background":"rgba(255,255,255,0.5)"});
+	$("#logo").css({"margin-top": "130px", "width": "260px","height":"250px","background":"rgba(255,255,255,0.5)"});
 
 	var flag = false;
 	var scroll;
@@ -28,7 +28,7 @@ $(document).ready(function(){
 			}
 		}else{
 			if(flag){
-				$("#logo").css({"margin-top": "130px", "width": "230px","height":"230px", "background":"rgba(255,255,255,0.5)"});
+				$("#logo").css({"margin-top": "130px", "width": "260px","height":"250px", "background":"rgba(255,255,255,0.5)"});
 				// $("#banner").css({"height": "200px"});
 				$("header").css({"background-color": "rgba(46, 241, 114, 0.5)"});
 				flag = false;

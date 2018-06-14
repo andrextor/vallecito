@@ -8,25 +8,34 @@
 	transition: all .5s;
 }
 
-.icon-youtube{
+
+.fa-youtube{
 	background: #E83028;
+	font-size: 19px;
 }
-.icon-facebook2{
+.fa-facebook{
 	background: #2E406E;
 }
-.icon-instagram{
+.fa-instagram{
 	background: #3F60A5;
 }
 
-.icon:first-child{
+.icon1{
 	border-radius: 1rem 0 0 0;
 }
 
-.icon:last-child{
-	border-radius:  0 0 0 1rem;
+.icon3{
+	border-radius: 0 0 0 1rem;
 }
 
-.icon:hover{
+/* .icon:nth-child(2){
+	border-radius: 0 0 0 0;
+} */
+ /* .icon:last-child{
+	border-radius:  0 0 0 1rem;
+} */
+
+ .icon:hover{
 	padding-right: 3rem;
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
@@ -101,25 +110,49 @@ img#logo{
 
 /* inicio equipo trabajo */
 /*  */
-.container_equipo_tabajo{
+.container_equipo_tabajo {
 	display: grid;
-	grid-row: 1fr 1fr;
-	/* grid-column: 1fr;
-	grid-row: 1fr; */
-	/* background: red;
-	height: 300px; */
+	grid-template-columns: repeat(3, 1fr);
+	box-sizing: border-box;
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	.container_equipo_tabajo {
+
+		grid-gap: 10px;
+		grid-template-columns: 1fr;
+	}
 }
 
 .container_equipo_tabajo h2{
+	grid-row: 1;
+}
+
+
+.container_equipo_tabajo .profile-card{
+	align-items: center;
+}
+
+.container_equipo_tabajo .title{
 	display: flex;
-	grid-column:1 / -1;
+	grid-row: 1;
+	grid-column: 1 / -1;
 	justify-content: center;
 	align-items: center;
-	color: rgba(46, 241, 114, 0.9);
-	background-color: white;
+	color:rgba(46, 241, 114);
+	font-size: 30px;
+	background-image: url(../img/banner.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 	height:60px;
 	border-radius: 5px;
 	margin-bottom:20px;
 }
+
 
 /* fin */
